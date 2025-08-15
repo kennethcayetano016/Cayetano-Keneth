@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Back!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="id-selector">I'm Back!</h1>
+    <p class="paragraph">Hi! My name is Keneth Cayetano.</p>
+    <img src="Charlss.jpg" alt="Profile Picture" class="profile-img">
+    
+    <div class="content">
+        <h2 class="section-title">Class Expectations</h2>
+        <ul>
+            <li>Attend classes regularly and participate actively in discussions.</li>
+            <li>Maintain respect and collaboration with peers and instructors.</li>
+        </ul>
+
+        <h2 class="section-title">Subject Expectation</h2>
+        <ul>
+            <li>Gain a clear understanding of the core concepts of programming.</li>
+        </ul>
+
+        <h2 class="section-title">Future PHP Projects</h2>
+        <ul>
+            <li>Create a contact form that sends emails.</li>
+            <li>Develop a to-do list application to manage tasks.</li>
+        </ul>
+    </div>
+    <button class="change-bg-btn" onclick="changeBackground()">Change Background</button>
+     <script>
+        function changeBackground() {
+           
+            const imageUrl = "background.jpg";
+            document.body.style.background = `url('${imageUrl}') no-repeat center center fixed`;
+            document.body.style.backgroundSize = "cover";
+        }
+    </script>
+</body>
+</html>
