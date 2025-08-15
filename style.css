@@ -39,17 +39,3 @@ ul {
     line-height: 1.6;
 }
 
-.change-bg-btn {
-    margin: 30px auto;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #62db72;
-    color: rgb(255, 60, 60);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.change-bg-btn:hover {
-    opacity: 0.8;
-}
